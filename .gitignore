@@ -2,6 +2,8 @@
 *.o
 *.log
 dump.rdb
+CMakeLists.txt
+cmake-build-debug/
 redis-benchmark
 redis-check-aof
 redis-check-dump
@@ -25,3 +27,4 @@ deps/lua/src/liblua.a
 .make-*
 .prerequisites
 *.dSYM
+.idea
